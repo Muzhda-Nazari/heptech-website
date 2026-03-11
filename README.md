@@ -1,4 +1,4 @@
-# HepTech Website
+# HEPtech Website
 
 A professional business website built for HepTech, a low-voltage and security systems company.
 
