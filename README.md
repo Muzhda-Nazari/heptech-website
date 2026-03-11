@@ -25,11 +25,14 @@ Muzhda Nazari
 ### Homepage
 ![Homepage](heptech.jpg)
 
-### Website Section
-![Section](heptech.png)
+### Services Section
+![Services](heptech.png)
 
-### Footer / Contact
-![Contact](heptech.prj.png)
+### About Section
+![About](heptech.jpj.png)
+
+### Contact / Footer
+![Contact](heptech.pnj.png)
 
 
 
