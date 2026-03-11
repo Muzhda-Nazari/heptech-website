@@ -1,2 +1,21 @@
-# heptech-website
-Professional business website for HepTech security systems company.
+# HepTech Website
+
+A professional business website built for HepTech, a low-voltage and security systems company.
+
+## Features
+
+- Responsive business website
+- Company information sections
+- Services overview
+- Contact section
+- Modern UI design
+
+## Technologies
+
+- HTML
+- CSS
+- JavaScript
+
+## Author
+
+Muzhda Nazari
