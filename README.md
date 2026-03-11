@@ -19,3 +19,14 @@ A professional business website built for HepTech, a low-voltage and security sy
 ## Author
 
 Muzhda Nazari
+
+## Screenshots
+
+### Homepage
+![Homepage](heptech.jpg)
+
+### Website Section
+![Section](heptech.png)
+
+### Footer / Contact
+![Contact](heptech.prj.png)
