@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HEPtech Ltd</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/main.js" defer></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<nav class="nav">
+    <div class="nav-container">
+     <div class="logo">
+    <img src="images/logo.JPG" alt="HEPtech Logo">
+</div>
+
+
+        <div class="nav-links" id="navLinks">
+            <a href="#home">HOME</a>
+            <a href="#solutions">SOLUTIONS</a>
+            <a href="#partners">PARTNERS</a>
+            <a href="#contact">CONTACT</a>
+            <a href="heptech-admin/login.html" target="_blank" rel="noopener">ADMIN</a>
+        </div>
+
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</nav>
+
+<header class="hero" id="home">
+    <h1>HEPtech Ltd</h1>
+    <p>Low Voltage and Security Systems installer/ integrator.</p>
+</header>
+
+<section class="about">
+        <h2 class="section-title">ABOUT US</h2>
+        <p>
+            At HEPtech Ltd, we provide complete security and building technology
+            solutions in close collaboration with clients, engineers, and technicians.
+        </p>
+        <p>
+            Our focus is objective advice, reliable systems, and long-term support.
+        </p>
+</section>
+
+<section class="solutions" id="solutions">
+    <h2 >OUR SOLUTIONS</h2>
+
+    <div class="solutions-banner">
+    <img src="images/solutions-banner.jpg" alt="Security Systems Overview">
+</div>
+
+    <div class="solutions-grid">
+        <div class="solution-item">
+            <h3>
+               <i class="fa-solid fa-video"></i>
+                CCTV Surveillance
+            </h3>
+            <p>Advanced video monitoring systems for any environment.</p>
+        </div>
+
+        <div class="solution-item">
+            <h3>
+                <i class="fa-solid fa-id-card"></i>
+                Access Control
+            </h3>
+            <p>Secure credential, mobile and biometric systems.</p>
+        </div>
+
+        <div class="solution-item">
+            <h3>
+                <i class="fa-solid fa-shield-halved"></i>
+                Intrusion Detection
+            </h3>
+            <p>Perimeter and alarm monitoring integration.</p>
+        </div>
+
+        <div class="solution-item">
+            <h3>
+                <i class="fa-solid fa-network-wired"></i>
+                Low Voltage Infrastructure
+            </h3>
+            <p>Structured cabling and network backbone solutions.</p>
+        </div>
+        
+        <div class="solution-item">
+            <h3>
+                <i class="fa-solid fa-door-open"></i>
+                Automatic Door Installation/Services
+            </h3>
+            <p>Installation of swing and slide automatic doors/Any brands.</p>
+        </div>      
+        <div class="solution-item">
+              <h3>
+                <i class="fa-solid fa-phone"></i>
+                Intercom & VOIP
+            </h3>
+              <p>Comprehensive intercom and VOIP solutions for seamless communication.</p>
+        </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="contact-container">
+
+        <!-- LEFT SIDE (FORM) -->
+        <div class="contact-form">
+            <h2>Let us help you update your digital infrastructure today.</h2>
+            <p>Reach out for a consultation.</p>
+
+    <form action="https://formsubmit.co/nazarimuzhda1993@gmail.com" method="POST">
+
+    <div class="row">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="New HEPTech Website Inquiry">
+    </div>
+
+    <textarea name="message" placeholder="Message" required></textarea>
+
+    <div class="buttons">
+        <button type="submit" class="primary">SEND</button>
+        <button type="reset" class="secondary">RESET</button>
+    </div>
+
+</form>
+        </div>
+
+        <!-- RIGHT SIDE (INFO) -->
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+
+            <p><strong>📧 Email:</strong></p>
+            <p><strong>📞 Phone:</strong></p>
+
+
+            
+        </div>
+
+    </div>
+</section>
+
+
+<footer class="footer">
+    © HEPtech Ltd. Certified, Licensed & Bonded.
+</footer>
+
+<script>
+document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href');
+        const targetSection = document.querySelector(targetId);
+
+        targetSection.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    });
+});
+</script>
+
+</body>
+</html>
+
