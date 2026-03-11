@@ -28,13 +28,13 @@ Muzhda Nazari
 ### About Section
 ![About](heptech.jpj.png)
 
-![Homepage](heptech.jpg)
-
 ### Services Section
-![Services](heptech.png)
+![Homepage](heptech.jpg)
 
 ### Contact / Footer
-![Homepage](heptech.jpg)
+![Services](heptech.png)
+
+
 
 
 
